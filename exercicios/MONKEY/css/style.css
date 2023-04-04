@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #272727;
+  padding: 25px;
+  color: white;
+  align-items: center;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  z-index: 9900;
+}
+
+header > a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+a {
+  margin-right: 15px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+main {
+  background: url("../imagens/white1.jpg") no-repeat center center;
+  height: 205vh;
+  background-size: cover;
+}
+
+footer {
+  height: 10%;
+  text-align: center;
+  background-color: #272727;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+footer > p {
+  padding: 16px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #272727;
+}

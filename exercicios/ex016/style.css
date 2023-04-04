@@ -1,0 +1,110 @@
+@keyframes anim{
+    0% {background-color: red; width: 10px; height: 10px;}
+
+    20% {background-color: blue; width: 50px; height: 50px;}
+
+    40% {background-color: violet; width: 100px; height: 100px;} 
+
+    60% {background-color: yellow; width: 150px; height: 150px;}
+
+    80% {background-color: limegreen; width: 200px; height: 200px;}
+
+    100% {background-color: black; width: 250px; height: 250px;}
+}
+
+
+.container{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+.box{
+    color: black;
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 13px;
+    margin: 40px;
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+body{
+    margin: 20px;
+    background-color: #cccccc;
+}
+
+
+
+#ativar{
+    display: block;
+    margin: 20px auto;
+}
+
+#modal{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    max-width: 500px;
+    margin: 20px auto;
+    opacity: 0;
+    transform: translateX(-20px)
+}
+
+#modal h1{
+    font-family: sans-serif;
+    margin: 0px 0px 20px;
+}
+
+#modal label{
+    display: block;
+    font-family: sans-serif;
+    margin: 5px 10px;
+}
+
+#modal input{
+    width: 100%;
+    border: 1px solid#ddd;
+    border-radius: 4px;
+    padding: .5em;
+    font-size: 1rem;
+    background: #f7f7f7;
+}
+
+#modal button{
+    margin-top: 20px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    display: block;
+    font-size: 1em;
+    padding: .6rem 2rem;
+    border: none;
+    background: #ffb801;
+    color: #402d00;
+}
+
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+#modal.animar{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}

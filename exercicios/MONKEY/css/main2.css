@@ -1,0 +1,202 @@
+#main3 {
+  transform: translate(-0%, -78%);
+  background-color: #272727;
+  margin: auto;
+  padding: 0px;
+  width: 68vw;
+  height: 47vh;
+  border-radius: 12px;
+  color: white;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  overflow: hidden;
+}
+
+#texto{
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#sobre2{
+  width: 66,2vw;
+  height: 6vh;
+  padding: 26px;
+  display: flex;
+  font-size: 26px;
+  justify-content: space-around;
+}
+
+#caixa{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+#caixa > input {
+  width: 500px;
+  height: 40px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  border-radius: 8px;
+  text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #sobre{
+    display: block;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding: 8px;
+}
+
+#sobre2{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 28px;
+    padding: 20px;
+}
+
+#texto{
+  margin: auto;
+    font-size: 22px;
+    text-align: center;
+} */
+

@@ -1,0 +1,142 @@
+* {
+  margin: auto;
+}
+
+.not {
+  padding: 14px;
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.267) 10px 9px 14px 0px;
+  animation: scaledown 0.3s linear;
+  animation-fill-mode: forwards;
+}
+
+.not > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.not > h1 {
+  text-align: center;
+  font-weight: 800;
+  margin: 16px;
+  padding: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.not:hover {
+  z-index: 100;
+  animation: scale 0.3s linear;
+  animation-fill-mode: forwards;
+}
+
+.main2 {
+  transform: translate(-0%, 135%);
+  display: flex;
+  justify-content: space-around;
+}
+
+#nariz {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#babuino {
+  width: 275px;
+  height: 183px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#gibao {
+  width: 275px;
+  height: 183px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#inicio {
+  display: block;
+  transform: translate(-0%, 40%);
+  width: 60vw;
+  height: 270px;
+  background-color: #272727;
+  color: white;
+  margin: auto;
+  padding: 28px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px 1px 1px black;
+  top: -450px;
+}
+
+#inicio > img {
+  font-size: 64px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  padding: 0px;
+  text-shadow: 1px 9px 10px black;
+}
+
+#inicio > p {
+  font-size: 28px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .not {
+    margin: auto;
+    display: flex;
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+}
+
+@keyframes scaledown {
+  0% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
