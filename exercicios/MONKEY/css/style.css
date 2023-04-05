@@ -15,6 +15,8 @@ header {
   color: white;
   align-items: center;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  position: fixed;
+  width: 100vw;
   z-index: 9900;
 }
 
